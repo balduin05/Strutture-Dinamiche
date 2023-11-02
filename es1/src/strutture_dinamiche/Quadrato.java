@@ -36,7 +36,8 @@ public class Quadrato {
 
 	@Override
 	public String toString() {
-		return "Quadrato [lato=" + lato + "]";
+		return lato + "";
+		
 	}
 
 

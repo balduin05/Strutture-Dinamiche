@@ -21,12 +21,32 @@ public class Esempio2 {
 		}
 		
 		
-		// VISUALIZZA:
+		// VISUALIZZAZIONE STANDARD:
 		
 		for(int i = 0; i < v.size(); i++) {
-			System.out.println(v.get(i));
+			System.out.println(v.get(i));  // N.B!  Non esiste il v[i]
 			
 		}
+		
+		
+		// VISUALIZZAZIONE toString():
+		
+		System.out.println();
+		System.out.println(" - v.toString() - ");
+		System.out.println(v);
+		
+		
+		// VISUALIZZAZIONE ForEach
+		
+		System.out.println();
+		System.out.println(" - VISUALIZZAZIONE ForEach - ");
+		System.out.println();
+		
+		for(Quadrato q:v) {
+			System.out.println(q);  // sarebbe la richiamata al toString()
+			
+		}
+		
 
 	}
 
