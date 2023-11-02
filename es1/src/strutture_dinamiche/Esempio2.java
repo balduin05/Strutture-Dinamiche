@@ -78,8 +78,19 @@ public class Esempio2 {
 		System.out.println();
 		System.out.println(v);
 		
+		System.out.println();
 		System.out.println("Capacity: " + v.capacity());
 		System.out.println("Size: " + v.size());
+		
+		
+		// RIMUOVO TUTTI GLI ELEMENTI DAL VETTORE:
+		
+		System.out.println();
+		System.out.println(" - ELIMINA TUTTI GLI ELEMENTI DAL VETTORE - ");
+		System.out.println();
+		
+		v.clear();
+		System.out.println(v);
 		
 
 	}
