@@ -73,6 +73,7 @@ public class Esempio2 {
 		
 		System.out.println();
 		System.out.println(" - trimToSize() - ");
+		
 		v.trimToSize();
 		System.out.println();
 		System.out.println(v);
