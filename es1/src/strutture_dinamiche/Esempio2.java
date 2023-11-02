@@ -36,6 +36,13 @@ public class Esempio2 {
 		System.out.println(v);
 		
 		
+		// AGGIUNTA ELEMENTO IN UN DETERMINATO INDICE:
+		// N.B => Non si devono lasciare buchi
+		
+		v.add(0, new Quadrato(100));  // aggiunta numero 100 all'indice 0
+		v.add(6, new Quadrato(250));  // aggiunta numero 250 all'indice 6
+		v.add(7, new Quadrato(500));  // Errore: lasci il buco se prima non hai aggiunto all'indice 6 un numero!
+		
 		// VISUALIZZAZIONE ForEach
 		
 		System.out.println();
