@@ -25,7 +25,6 @@ public class Esempio3 {
 		
 		System.out.println(al2);
 
-
 	}
 
 }
