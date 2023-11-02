@@ -63,6 +63,22 @@ public class Esempio2 {
 		
 		System.out.println();
 		System.out.println(v);
+	
+		System.out.println();
+		System.out.println("Capacity: " + v.capacity());
+		System.out.println("Size: " + v.size());
+		
+		
+		// IMPONGO LA CAPACITA' A QUANTI ELEMENTI SONO STATI INSERITI:
+		
+		System.out.println();
+		System.out.println(" - trimToSize() - ");
+		v.trimToSize();
+		System.out.println();
+		System.out.println(v);
+		
+		System.out.println("Capacity: " + v.capacity());
+		System.out.println("Size: " + v.size());
 		
 
 	}
