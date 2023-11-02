@@ -54,6 +54,16 @@ public class Esempio2 {
 			
 		}
 		
+		
+		// CANCELLAZIONE remove  da (size - 1)
+		
+		System.out.println();
+		System.out.println(" - CANCELLAZIONE ELEMENTO NELL'INDICE 0 - ");
+		v.remove(0);
+		
+		System.out.println();
+		System.out.println(v);
+		
 
 	}
 
